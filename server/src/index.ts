@@ -15,8 +15,6 @@ type Sound = {
 const sounds: Sound[] = [
   { id: 'weird_route', name: 'WEIRD ROUTE', file: '/sounds/weird_route.mp3', image: '/images/weird_route.png'  },
   { id: 'huuuh', name: 'HUUH', file: '/sounds/huuuh.mp3', image: '/images/huuuh.png'  },
-  { id: 'sega_in_diretta', name: 'SEGA IN DIRETTA', file: '/sounds/sega_in_diretta.mp3', image: '/images/sega_in_diretta.png' },
-  { id: 'mussolini_frocio', name: 'MUSSOLINI FROCIO', file: '/sounds/mussolini_frocio.mp3', image: '/images/mussolini_frocio.png'  },
 ]
 
 const app = new Hono()
